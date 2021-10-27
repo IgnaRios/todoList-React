@@ -10,6 +10,7 @@ h1 {
   justify-content: center;
   font: 1rem;
   color: white;
+  border-radius: 8px;
   
 }
 
@@ -23,6 +24,10 @@ form {
   justify-content:space-around;
 }
 
+.todo-container{
+  width: 50%;
+}
+
 ul{
   list-style: none;
 }
@@ -30,6 +35,7 @@ ul{
 .todo{
   display: flex;
   margin-top: 2em;
+  display: grid;
 }
 
 .container{

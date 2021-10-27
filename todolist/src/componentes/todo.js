@@ -25,10 +25,10 @@ const Todo = ({text, todo, todos, setTodos}) =>{
         <div className='todo'>
             <li className='todo-item'>{text}</li>
             <button onClick={completeHandler} className='complete-btn'>
-                <img src='C:\Users\ignac\OneDrive\Escritorio\DiplomaturaProgramacion\TPs\proyecto\todolist\public\checkicon.jpg' alt='checked' height='5px' width='5px' />
+                Completed
             </button>
             <button onClick={deleteHandler} className='trash-btn'>
-                <i className='fa fas-trash'> </i>
+                X
             </button>
         </div>
     );
